@@ -1,6 +1,6 @@
 import './App.css'
 import Products from './components/products'
-import Details from './components/Details'
+import Details from './components/details'
 import Cart from './components/Cart'
 import Home from './components/Home'
 import ProtectedRoute from './components/ProtectedRoute'
