@@ -1,5 +1,5 @@
 import './App.css'
-import Products from './components/Products'
+import Products from './components/products'
 import Details from './components/Details'
 import Cart from './components/Cart'
 import Home from './components/Home'
@@ -20,7 +20,7 @@ function App() {
         <Route path="/Login" element={<Login />} />
 
         {/* HOME (optional protected or public) */}
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
 
         {/* PRODUCTS (PROTECTED) */}
         <Route
